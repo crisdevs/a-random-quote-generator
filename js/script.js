@@ -69,7 +69,7 @@ const printQuote = () =>{
   document.querySelector("body").style.backgroundColor = randomColor();
   document.getElementById("quote-box").innerHTML = html;
 }
-
+//Every 8 seconds it will call the printQuote function.
 setInterval(printQuote, 8000);
 /***
  * click event listener for the print quote button
